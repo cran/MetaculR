@@ -4,10 +4,12 @@
 \alias{MetaculR_excitement}
 \title{Find exciting questions}
 \usage{
-MetaculR_excitement(MetaculR_questions)
+MetaculR_excitement(MetaculR_questions, days = 30)
 }
 \arguments{
 \item{MetaculR_questions}{A MetaculR_questions object}
+
+\item{days}{The time period used for the excitement calculations starts this number of days ago, prior to today. E.g., if your clock says it is day 12 and your \code{days} argument is 10, the time period is day 2 until the present.}
 }
 \value{
 A dataframe of questions with excitement measures.

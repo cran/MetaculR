@@ -15,7 +15,7 @@ MetaculR_brier(MetaculR_questions, me = TRUE, thresholds = seq(0, 1, 0.1))
 }
 \value{
 A list of Brier statistics for you and Metaculus.
-\item{brier_me, brier_Metaculus}{}
+\item{brier_me, brier_Metaculus, brier_community}{}
 \item{baseline.tf}{Logical indicator of whether climatology was provided.}
 \item{bs}{Brier score}
 \item{bs.baseline}{Brier Score for climatology}
@@ -30,7 +30,7 @@ A list of Brier statistics for you and Metaculus.
 \item{thresholds}{The thresholds for the forecast bins.}
 \item{check}{ Reliability - resolution + uncertainty should equal brier score.}
 \item{Other}{}
-\item{ss_me_Metaculus}{Skill score, me vs. Metaculus.}
+\item{ss_me_Metaculus, ss_me_community, ss_Metaculus_community}{Skill score, me vs. Metaculus, etc.}
 \item{count_questions}{Number of total questions included.}
 \item{brier_df: Used for plotting Brier score statistics}{}
 \item{ID}{Predictor.}

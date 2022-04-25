@@ -2,12 +2,60 @@
 
 <!--- next entry here -->
 
-## 0.2.0
+# MetaculR 0.4.0
+2022-04-25
+
+## Features
+
+- **metaculr_plot:** Add rug_plot of current weighted distribution (2cb7b7b4339aebb1570a10b92bb2a2d6bc73bff6)
+- **metaculr_plot:** Use ggrepel for labels (6d1e8517d87a56238408afa9037e11da8e297c29)
+- **metaculr_probabilistic_consensus:** Add MetaculR_probabilistic_consensus for combining external forecasts (4a8c1dc369bcb243f9ac3afb8f0f34f6c1489bbe)
+- **metaculr_plot:** Add tournament parameter for relative log score (4c1b015a192fdebd70b1b91cdeb1015150798a57)
+
+## Fixes
+
+- **news.md:** Update NEWS.md (b1cf0b62f8d9ca91e0659f8a25ff98f5daa328ee)
+- **site:** Update Site (3525a24ef2c137678a1e141698e5628d24dcdda9)
+- **metaculr_mydiff:** Force comparison against my most recent prediction (2499f800ad00b8784f3e1afc6d41b1d055aa7929)
+- **metaculr_mydiff:** Add new condition to use questions with user prediction (c7565b30fb52312edbb95e85c461dfc91baf2ad0)
+- **`metaculr_questions`:** Inform user of improper MetaculR_questions objects (d226334bc6cc674f55ebc166a28e47f653efa9dd)
+- **metaculr_plot:** Gracefully handle duplicated questions from API (439cda0b4eb7a9da44d58ff5096ab4319d855628)
+- **vignettes:** Update vignettes (02e58307d96a8161193a74e2fee7cb13668fc20d)
+
+# MetaculR 0.3.0
+2022-03-31
+
+## Features
+
+- **metaculr_excitement:** Add days parameter (78f9bb4238d7b088947aab1eaebaf30eab39739c)
+- **metaculr_markdown_table:** Add function to quickly translate R tables to Metaculus Markdown (c9e1d9596ac0702930063fbe70b3515fcfaed316)
+- **metaculr_brier:** Add community scores (edf5d367d723fb78ad88e8706dcc3be3e276a3d5)
+- **metaculr_plot:** Add step-line to connect predictions (52c06b056b9d732cb96eaab440819a7550def8b5)
+- **metaculr_aggregated_forecasts:** Aggregate forecasts in different ways (19cf3acc0c16ba0431842c9accc2aced910ebf0d)
+
+## Fixes
+
+- **site:** Update site after version bump (2bfe67247b02cd334633808aa41323de5fcb6afa)
+- **cran:** Update CRAN_RELEASE (a99ba9c80213a30b52b5e854721e3ff6d156d724)
+- **site:** Add cranlogs downloads badge (2d607bf0e10598963c6f6fcf2aefe6062ec0ad85)
+- **metaculr.rmd:** Make small adjustments to include community scores (a685746f76d0f5cf68016ac6b7220754df829c75)
+- **metaculr_plot:** Make more space for plot on both axes (f7b5913117c9c3074151db2ff68a9423e3cbe8fe)
+- **metaculr.rmd:** Add community score to another plot (f9214c822d87f3ba5f3505d5bb01438f798a0061)
+- **metaculr_brier:** Update for community median scores (e08b2d0ee6f5fb3037e2ee7fa723f3d009570f4b)
+- **metaculr_plot:** Correct parameter name (db7faec27c2f8b053aafbb68f03bda66b156d05f)
+- **metaculr_brier:** Further updates for community scores (bd8aba2b9ee12287ed469c7d918f1044786f05fa)
+- **metaculr_aggregated_forecasts:** Add tests for mean_logodds and extremized_baseline (3d8e1567f5c8cceea3361f308feb3ff5710941fc)
+- **.gitlab-ci.yml:** Only run job on protected branches (with variable) (904aebf5f89c7e2b6ec0e6c5d86635761a851b8d)
+- **description:** Bump version number (45b5b548731e6940a6cd87c3d2b4830aab5c54dc)
+- **.gitlab-ci.yml:** Only run job on protected branches (9c0a0219e9326ca686847d59c3716bcf0ed521fe)
+- **metaculr_aggregated_forecasts:** No visible binding fix; https fix (7e06232e13e10febc181ded96f6c46df7317f90d)
+
+# MetaculR 0.2.0
 2022-03-21
 
-### Breaking changes
+## Breaking changes
 
-#### **cran:** Update Description field; add examples (e3e2af6b5fa677c73abaaaf773b2bf60a8cfdd64)
+### **cran:** Update Description field; add examples (e3e2af6b5fa677c73abaaaf773b2bf60a8cfdd64)
 
 This commit changed functions with capital letters after the underscore to lowercase letters, e.g.,
 

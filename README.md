@@ -7,6 +7,8 @@
 [![pipeline status](https://gitlab.com/ntrlshrp/metaculr/badges/master/pipeline.svg)](https://gitlab.com/ntrlshrp/metaculr/-/commits/master)
 [![coverage report](https://gitlab.com/ntrlshrp/metaculr/badges/master/coverage.svg)](https://gitlab.com/ntrlshrp/metaculr/-/commits/master)
 [![Latest Release](https://gitlab.com/ntrlshrp/metaculr/-/badges/release.svg)](https://gitlab.com/ntrlshrp/metaculr/-/releases)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/MetaculR)](https://CRAN.R-project.org/package=MetaculR)
+	
 <!-- badges: end -->
 
 The goal of MetaculR is to enable [Metaculus](https://www.metaculus.com/questions/) users to easily login, download, and analyze questions predicted by you and/or the Metaculus community.

@@ -1,6 +1,6 @@
 Package: MetaculR
 Title: Analyze Metaculus Predictions and Questions
-Version: 0.2.0
+Version: 0.4.1
 Authors@R: 
     person(given = "Joseph de la Torre",
            family = "Dwyer",
@@ -16,14 +16,15 @@ Description: Login, download, and analyze questions predicted by you and/or the
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.1.1
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 Imports: magrittr, dplyr, ggplot2, httr, jsonlite, progress, tidyr,
-        verification, stats
+        verification, stats, clipr, spatstat.geom, ggrepel, assertthat,
+        cowplot
 NeedsCompilation: no
-Packaged: 2022-03-21 20:19:12 UTC; jtd
+Packaged: 2022-04-25 18:29:29 UTC; jtd
 Author: Joseph de la Torre Dwyer [aut, cre]
     (<https://orcid.org/0000-0002-2717-9077>)
 Maintainer: Joseph de la Torre Dwyer <JosephD@BRdata.com>
 Repository: CRAN
-Date/Publication: 2022-03-23 09:10:08 UTC
+Date/Publication: 2022-04-25 19:30:02 UTC

@@ -4,14 +4,21 @@
 \alias{MetaculR_plot}
 \title{Plot the history of a single question}
 \usage{
-MetaculR_plot(MetaculR_questions, Metacular_id, scale_binary = "prob")
+MetaculR_plot(
+  MetaculR_questions,
+  Metaculus_id,
+  scale_binary = "prob",
+  tournament = FALSE
+)
 }
 \arguments{
 \item{MetaculR_questions}{A MetaculR_questions object}
 
-\item{Metacular_id}{The ID of the question to plot}
+\item{Metaculus_id}{The ID of the question to plot}
 
 \item{scale_binary}{Choose "prob", "odds", or "logodds"}
+
+\item{tournament}{Plot relative log score below main plot}
 }
 \value{
 A ggplot.
@@ -23,6 +30,6 @@ Plot the history of a single question
 \dontrun{
 MetaculR_plot(
   MetaculR_questions = questions_myPredictions,
-  Metacular_id = 10004)
+  Metaculus_id = 10004)
 }
 }
